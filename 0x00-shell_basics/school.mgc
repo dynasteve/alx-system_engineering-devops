@@ -1,3 +1,2 @@
 #!/bin/bash
-grep -Ril "School" /
-
+grep -rnw './' -e 'School'
